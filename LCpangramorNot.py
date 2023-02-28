@@ -11,9 +11,6 @@ class Solution:
             return True
         else:
             return False
-
-
-        
 s=Solution()
 a="thequickbrownfoxjumpsoverthelazydog"
 print(s.checkIfPangram(a))
