@@ -19,4 +19,4 @@ class Solution:
         else:
             odd=n//2
             sum=sum-mat[odd][odd]
-            return sum
+            return sum  
