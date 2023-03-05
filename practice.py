@@ -7,5 +7,3 @@ class Solution:
                 m[j][i]=matrix[i][j]
         return m
 s=Solution()
-arr=[[1,2,3],[4,5,6]]
-print(s.transpose(arr))
