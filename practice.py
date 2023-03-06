@@ -1,1 +1,1 @@
-print("hello world")
+print("after install git lens")
