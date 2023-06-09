@@ -5,7 +5,9 @@ class Solution:
         for i in range(len(nums)):
             if nums[i]==1:
                 c+=1
-                m=max(m,c)
+                
             else:
+                m=max(c,m)
                 c=0
+        m=max(c,m)
         return m
